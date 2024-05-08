@@ -36,8 +36,8 @@
   .hero-image {
     background-image: url('images/herosec1.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
+    background-size:cover;
+    background-position: 100%;
     width: 100%;
     min-height: 150vh;
     display: flex;
@@ -94,7 +94,13 @@
   top: 0;
   right: 56px;
   background-color: #625f5f;
+ 
 
+ }
+
+ .logo-x{
+  width: 150px;
+  height: 90px;
  }
 
  .logoh1:hover{
@@ -111,3 +117,15 @@
   svg{
     margin-bottom: 0;
   }
+
+@media (min-width: 375px) and (max-width: 768px) { 
+  
+ }
+
+
+@media (375px <= width <= 768px) {
+  .hero-image{
+    background-image: url('images/original4.jpg');
+    
+  }
+ }
