@@ -11,7 +11,7 @@ window.addEventListener("scroll", function() {
     let ubicacionPrincipal = window.pageYOffset;
 
     /* --condicon para ocultar o mostrar el menu */
-    if(ubicacionPrincipal<=300) {
+    if(ubicacionPrincipal<=600) {
         
         $header.style.display = "none";
 
