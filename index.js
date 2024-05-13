@@ -2,6 +2,7 @@
 
 let $header = document.querySelector("header");
 
+
 /* --evento scroll */
 window.addEventListener("scroll", function() {
     /* --muestra la ubicacion cada vez que hagas scroll */
