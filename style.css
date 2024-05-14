@@ -173,8 +173,9 @@ h3 {
   flex-direction: column;
   width: 90%;
   margin: 0 auto;
-  height: 1050px;
+  height: auto;
   padding-top: 30px;
+  margin-bottom: 30px;
 }
 
 .title-ver {
@@ -337,10 +338,9 @@ svg {
   display: flex;
   justify-content: space-around;
   width: 90%;
-  margin: 0 auto;
+  margin:0 auto;
   height: 922px;
-  padding: 87.5px;
-  gap: 70px;
+  padding: 107.5px;
 }
 
 .mas-spn {
@@ -348,14 +348,15 @@ svg {
   flex-direction: column;
   text-align: start;
   justify-content: center;
-  gap: 5px;
+  gap: 30px;
   padding: 0 24px 0 0;
 }
 
-img-sport {
+.img-sport {
   display: flex;
   width: 830px;
   height: 100%;
+  padding: 30px;
 }
 .title-spn {
   font-family: "Inspire-bold", sans-serif;
@@ -396,6 +397,25 @@ img-sport {
     height: 55px;
     padding: 16.5px 24px;
   }
+
+  .sports {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    height: 922px;
+    padding: 27.5px;
+
+  }
+  .mas-spn {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 24px 0 0;
+  }
+  
 }
 
 .main__logo {
