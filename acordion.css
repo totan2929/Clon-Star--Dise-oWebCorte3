@@ -111,7 +111,7 @@ h2 {
    
     width: 100%; /* Ancho del 100% de la ventana gráfica */
     height: auto;  
-    align-items: center;
+    align-items: start;
     /* background-size: cover;  */
     margin: 0;
     margin-bottom: 150px;
@@ -122,17 +122,19 @@ h2 {
   /* Estilos para la sección en la parte superior izquierda */
   .seccion-superior-izquierda {
     position: absolute;
-    top: 120px;
-    left: 160px;
+    top: 60px;
+    left: 60px;
     padding: 20px;
-  
-    max-width: 950px; /* Ancho máximo */
+    height: 300px;
+    max-width: 550px;
+   /* Ancho máximo */
   }
   
   /* Estilos para los párrafos dentro de la sección superior izquierda */
   .seccion-superior-izquierda p {
-    margin: 0; /* Elimina los márgenes predeterminados de los párrafos */
+    margin: 0px; /* Elimina los márgenes predeterminados de los párrafos */
     padding-bottom: 10px; /* Espaciado entre párrafos */
+    width: 250px;
   }
 
   h4{
