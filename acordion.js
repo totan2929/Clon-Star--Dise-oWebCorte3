@@ -7,13 +7,13 @@ accordionContent.forEach((item, index) => {
 
         let description = item.querySelector(".description");
         if(item.classList.contains("open")){
-            description.style.height = `${description.scrollHeight}px`; //scrollHeight property returns the height of an element including padding , but excluding borders, scrollbar or margin
+            description.style.height = `${description.scrollHeight}px`; //La propiedad scrollHeight devuelve la altura de un elemento, incluido el relleno, pero excluyendo los bordes, la barra de desplazamiento o el margen.
             item.querySelector("i").classList.replace("fa-plus", "fa-minus");
         }else{
             description.style.height = "0px";
             item.querySelector("i").classList.replace("fa-minus", "fa-plus");
         }
-        removeOpen(index); //calling the funtion and also passing the index number of the clicked header
+        removeOpen(index); //llamando a la función y también pasando el número de índice del encabezado en el que se hizo clic
     })
 })
 
@@ -28,8 +28,3 @@ function removeOpen(index1){
         }
     })
 }
-
-// INICIO CODIGO JONATHAN:::::::::::::::::::::::::::::
-
-
-// FIN CODIGO JONATHAN:::::::::::::::::::::::::::::
