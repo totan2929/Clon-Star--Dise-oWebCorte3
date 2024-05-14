@@ -173,7 +173,7 @@ h3 {
   flex-direction: column;
   width: 90%;
   margin: 0 auto;
-  height: 1050px;
+  height: auto;
   padding-top: 30px;
 }
 
@@ -337,6 +337,7 @@ svg {
   display: flex;
   justify-content: space-around;
   width: 90%;
+  height: auto;
   margin: 0 auto;
   height: 922px;
   padding: 87.5px;
@@ -401,4 +402,14 @@ img-sport {
 .main__logo {
   width: 80px;
   height: 50px;
+}
+
+/* Aqui se configura el frame con una clase */
+iframe {
+  border: none;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto; /* Esto centra el iframe horizontalmente */
+  
 }
