@@ -7,7 +7,7 @@
 body{
     min-height: 100vh;
     display: flex;
-    max-width: 100%;
+    width: 100%;    
     height:auto;
     align-items: center;
     justify-content: center;
@@ -103,9 +103,9 @@ h2 {
 /* Estilos para la sección con imagen de fondo */
 
 .seccion-con-fondo {
-    position: relative;
+    position: relative;    
     width: 100%; /* Ancho del 100% de la ventana gráfica */
-    /* max-width: 100%; */
+    max-width: 1900px;
     height: auto;  
     align-items: center;
     margin-top: 50px;    
@@ -113,8 +113,10 @@ h2 {
     
   }
   #Img_Simpson{
+    
     width: 100%;
     max-width: 100%;
+    top: 0;
     height: auto;
     margin: 0
     
