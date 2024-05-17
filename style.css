@@ -61,7 +61,7 @@ a {
   background-size: cover;
   background-position: inherit;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -382,7 +382,7 @@ svg {
   line-height: 1.4;
 }
 
-@media (max-width: 1605px) {
+@media (max-width: 1400px) {
   .plan {
     width: 23%;
   }
@@ -418,6 +418,26 @@ svg {
     gap: 30px;
     padding: 0 24px 0 0;
   }
+
+
+
+  iframe {
+    border: none;
+    display: block;
+    width: 100%;
+    /* height: 2300px; */
+    margin: 0 auto; /* Esto centra el iframe horizontalmente */
+    
+  }
+  .content-iframe {
+    
+    border: none;
+    position: relative;
+    width: 100%;
+    /* max-width: 100%; */
+    
+  
+  }
   
 }
 
@@ -431,7 +451,7 @@ iframe {
   border: none;
   display: block;
   width: 100%;
-  height: 2300px;
+  /* height: 2300px; */
   margin: 0 auto; /* Esto centra el iframe horizontalmente */
   
 }
@@ -443,4 +463,10 @@ iframe {
   max-width: 100%;
   
 
+}
+
+@media (min-width: 1401px){
+body{
+  width: 100%;
+}
 }
