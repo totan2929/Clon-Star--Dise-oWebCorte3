@@ -353,13 +353,14 @@ svg {
   justify-content: center;
   gap: 30px;
   padding: 0 24px 0 0;
+  flex-grow: 1;
 }
 
 .img-sport {
   display: flex;
-  width: 830px;
-  height: 100%;
-  padding: 30px;
+  width: 55%;
+  padding: 10px;
+  flex-grow: 1;
 }
 .title-spn {
   font-family: "Inspire-bold", sans-serif;
@@ -406,9 +407,8 @@ svg {
     justify-content: space-between;
     width: 90%;
     margin: 0 auto;
-    height: 922px;
+    height: 622px;
     padding: 27.5px;
-
   }
   .mas-spn {
     display: flex;
@@ -417,27 +417,12 @@ svg {
     justify-content: center;
     gap: 30px;
     padding: 0 24px 0 0;
+
   }
 
 
 
-  iframe {
-    border: none;
-    display: block;
-    width: 100%;
-    /* height: 2300px; */
-    margin: 0 auto; /* Esto centra el iframe horizontalmente */
-    
-  }
-  .content-iframe {
-    
-    border: none;
-    position: relative;
-    width: 100%;
-    /* max-width: 100%; */
-    
   
-  }
   
 }
 
