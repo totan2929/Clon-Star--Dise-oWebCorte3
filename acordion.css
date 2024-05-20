@@ -253,4 +253,6 @@ span i {
   left: 96%;
 }
 
-  
+select{
+  width: 100px;
+}
